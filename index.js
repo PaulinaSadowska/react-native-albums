@@ -4,7 +4,7 @@ import Header from './src/components/header';
 
 const App = () => (
     //JSX! it's JS syntactic sugar, mask over normal function calls
-  <Header />
+  <Header headerText={'Albums'} />
 );
 
 AppRegistry.registerComponent('albums', () => App);
